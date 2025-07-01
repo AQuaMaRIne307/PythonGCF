@@ -2,8 +2,8 @@
 '''1.Classes And Objects
 ->Class
 -> a class is a blueprint for creating objects.
-it defines attributes and methods.
-'''
+it defines attributes and methods.'''
+
 '''class Person:
     def _init_(self,name,age):
         self.name = name
@@ -13,3 +13,12 @@ print(mySelf.name,mySelf.age)'''
 #Inheritance allows one class (child) to 
 # inherit attributes and methods from another 
 # class(parent)
+'''class Animal:
+    def speak(self):
+        print("Animal speaks")
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+d = Dog()
+d.speak()
+d.bark()'''
