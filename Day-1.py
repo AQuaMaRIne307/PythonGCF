@@ -72,7 +72,7 @@
 #squares = {x**2 for x in range(1,6)}
 #print(squares)
 #Dictionary
-student = {
+'''student = {
     "name":"Alice",
    "age":20,
     "course":"Python"
@@ -96,4 +96,4 @@ print(students["102"]["name"])
 #a=int(input("Enter a:"))
 #b=int(input("Enter b:"))
 #c=a+b
-#print(c)
+#print(c)'''
